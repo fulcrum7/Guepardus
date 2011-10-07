@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# This is example
+echo '*********************************************'
+echo We do some mounts and prepare rootfs
+echo '*********************************************'
