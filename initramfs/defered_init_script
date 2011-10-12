@@ -1,0 +1,27 @@
+#!/bin/sh
+
+# This is example
+#echo '*********************************************'
+#echo We do some mounts and prepare rootfs
+#echo '*********************************************'
+
+mount /dev/sdb2 /mpoint
+
+ln -s /mpoint/cgroup /cgroup
+ln -s /mpoint/dev /dev
+ln -s /mpoint/etc /etc
+ln -s /mpoint/home /home
+ln -s /mpoint/lib /lib
+ln -s /mpoint/media /media
+ln -s /mpoint/mnt /mnt
+ln -s /mpoint/opt /opt
+ln -s /mpoint/proc /proc
+ln -s /mpoint/root /root
+ln -s /mpoint/sbin /sbin
+ln -s /mpoint/srv /srv
+ln -s /mpoint/selinux /selinux
+ln -s /mpoint/tmp /tmp
+ln -s /mpoint/usr /usr 
+ln -s /mpoint/var var
+rm /bin
+/mpoint/bin/ln -s /mpoint/bin bin
