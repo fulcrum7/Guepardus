@@ -1,11 +1,27 @@
 #!/bin/sh
 
 # This is example
-#echo '*********************************************'
-#echo We do some mounts and prepare rootfs
-#echo '*********************************************'
-
-mount /dev/sdb2 /mpoint
+echo '*********************************************'
+echo We do some mounts and prepare normal rootfs
+echo '*********************************************'
+sleep 7
+echo ''
+sleep 7
+echo ''
+sleep 7
+echo 'mount proc'
+mount -t proc proc /proc
+echo 'mount sysfs'
+mount -t sysfs sysfs /sys
+echo /bin/mdev > /proc/sys/kernel/hotplug
+mdev -s
+echo 'devices:'
+ls /dev/*d*
+echo ''
+echo ''
+echo ''
+sleep 7
+mount /dev/hdb2 /mpoint
 
 ln -s /mpoint/cgroup /cgroup
 ln -s /mpoint/dev /dev
@@ -15,7 +31,6 @@ ln -s /mpoint/lib /lib
 ln -s /mpoint/media /media
 ln -s /mpoint/mnt /mnt
 ln -s /mpoint/opt /opt
-ln -s /mpoint/proc /proc
 ln -s /mpoint/root /root
 ln -s /mpoint/sbin /sbin
 ln -s /mpoint/srv /srv
@@ -23,5 +38,10 @@ ln -s /mpoint/selinux /selinux
 ln -s /mpoint/tmp /tmp
 ln -s /mpoint/usr /usr 
 ln -s /mpoint/var var
-rm /bin
+/mpoint/bin/rm /bin
 /mpoint/bin/ln -s /mpoint/bin bin
+echo 'mounts are over'
+echo ''
+echo ''
+sleep 7
+clear

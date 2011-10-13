@@ -35,9 +35,15 @@ int main(int argc, char** argv)
     char command[35];
     
     r=rdtsc();
-    sprintf(command,"echo \"Time: %lld \" > ~/time.res",r);
-    system(command);
+
+    sprintf(command,"Time: %lld \n",r);
+    printf("Guepardus clock has finished it's job\nResults: %s",command);
+
+
+    
     
     return (EXIT_SUCCESS);
+
 }
+
 

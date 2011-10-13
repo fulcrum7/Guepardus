@@ -1,0 +1,28 @@
+.
+├── bin -> busybox
+├── busybox
+│   ├── busybox
+│   ├── ln -> busybox
+│   ├── ls -> busybox
+│   ├── mdev -> busybox
+│   ├── mount -> busybox
+│   ├── rm -> busybox
+│   ├── sh -> busybox
+│   └── sleep -> busybox
+├── defered_init
+├── defered_init_script
+├── dev
+│   └── console
+├── etc
+│   ├── init.d
+│   │   └── rcS
+│   ├── inittab
+│   └── mdev.conf
+├── init -> defered_init
+├── mpoint
+├── priv_app
+├── proc
+├── README
+└── sys
+
+8 directories, 17 files

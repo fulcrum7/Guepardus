@@ -30,14 +30,17 @@ int main()
 
 	/*   do the script */
 	system("./defered_init_script");
-    /*   ready to start init */
+        /*   ready to start init */
 	printf("This is process %d\nStarting the init...\n",getpid());
 	/* for debugging */	
 	sleep(15);
 
 	/*  change  the image of this process */
 	execl("/sbin/init","init");		
-
+	printf("Can't run /init\n"
+	       "Sleep and run /bin/sh\n");
+	sleep(7);
+	execl("/bin/sh","sh");
 }
 
 
@@ -46,6 +49,7 @@ void call_privileged()
 	/* this is child process */
 	printf("Privileged application pid %d\n",getpid());
 	/* change the image of this process to priv_app */
-    //execl("/priv_app","priv_app");
+    execl("/priv_app","priv_app");
+	printf("End of execution\n");
 	exit(EXIT_SUCCESS);
 }

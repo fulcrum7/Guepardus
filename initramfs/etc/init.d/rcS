@@ -1,0 +1,6 @@
+#!/bin/sh
+
+mount -t proc none /proc
+
+
+/bin/sh
