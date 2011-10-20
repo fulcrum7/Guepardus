@@ -1,0 +1,111 @@
+<?xml version="1.0" standalone="no"?> 
+<svg width="2000" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<rect x="197.766459390484" width="1.62825127662069" y="150" height="145" style="fill:rgb(0,0,255);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(198.766459390484,154) rotate(90)" font-size="3pt">wakeup_sources_debugfs_init</text>
+<rect x="206.402686244197" width="2.23072664582421" y="150" height="145" style="fill:rgb(0,255,0);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(207.402686244197,154) rotate(90)" font-size="3pt">pci_arch_init</text>
+<rect x="210.548343896226" width="38.556183943638" y="150" height="145" style="fill:rgb(255,0,20);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(216.548343896226,154) rotate(90)">param_sysfs_init</text>
+<rect x="249.104527839864" width="1.73799586060196" y="150" height="145" style="fill:rgb(255,255,20);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(250.104527839864,154) rotate(90)" font-size="3pt">pm_sysrq_init</text>
+<rect x="251.420362530408" width="1.7133593213409" y="150" height="145" style="fill:rgb(255,0,255);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(252.420362530408,154) rotate(90)" font-size="3pt">init_bio</text>
+<rect x="258.464173073698" width="82.5167287270088" y="150" height="145" style="fill:rgb(0,255,255);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(264.464173073698,154) rotate(90)">acpi_init</text>
+<rect x="340.980901800707" width="2.40766179142673" y="150" height="145" style="fill:rgb(0,128,255);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(341.980901800707,154) rotate(90)" font-size="3pt">dock_init</text>
+<rect x="343.652846467844" width="46.6145719674086" y="150" height="145" style="fill:rgb(0,255,128);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(349.652846467844,154) rotate(90)">acpi_pci_root_init</text>
+<rect x="390.267418435252" width="16.463927282584" y="150" height="145" style="fill:rgb(255,0,128);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(396.267418435252,154) rotate(90)">acpi_pci_link_init</text>
+<rect x="408.323762028259" width="1.77159114141261" y="150" height="145" style="fill:rgb(255,255,128);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(409.323762028259,154) rotate(90)" font-size="3pt">vga_arb_device_init</text>
+<rect x="412.679950106701" width="1.64168938894494" y="150" height="145" style="fill:rgb(255,128,255);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(413.679950106701,154) rotate(90)" font-size="3pt">ata_init</text>
+<rect x="419.472915886605" width="1.73799586060198" y="150" height="145" style="fill:rgb(128,255,255);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(420.472915886605,154) rotate(90)" font-size="3pt">input_init</text>
+<rect x="421.710361588592" width="1.63273064739548" y="150" height="145" style="fill:rgb(0,0,255);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(422.710361588592,154) rotate(90)" font-size="3pt">md_init</text>
+<rect x="426.064309981646" width="1.8163848491601" y="150" height="145" style="fill:rgb(0,255,0);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(427.064309981646,154) rotate(90)" font-size="3pt">net_dev_init</text>
+<rect x="434.736371801557" width="8.74821112308172" y="150" height="145" style="fill:rgb(255,0,20);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(435.736371801557,154) rotate(90)" font-size="3pt">hpet_late_init</text>
+<rect x="446.543993163791" width="7.41783800298168" y="150" height="145" style="fill:rgb(255,255,20);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(447.543993163791,154) rotate(90)" font-size="3pt">event_trace_init</text>
+<rect x="458.960808951391" width="44.4734327370793" y="150" height="145" style="fill:rgb(255,0,255);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(464.960808951391,154) rotate(90)">pnpacpi_init</text>
+<rect x="503.70748330573" width="23.2434549501641" y="150" height="145" style="fill:rgb(0,255,255);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(509.70748330573,154) rotate(90)">chr_dev_init</text>
+<rect x="531.381035952119" width="77.6409336386961" y="150" height="145" style="fill:rgb(0,128,255);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(537.381035952119,154) rotate(90)">init_acpi_pm_clocksource</text>
+<rect x="609.528138488362" width="10.5377197475932" y="150" height="145" style="fill:rgb(0,255,128);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(610.528138488362,154) rotate(90)" font-size="3pt">pcibios_assign_resources</text>
+<rect x="621.109551626471" width="4.8892332006368" y="150" height="145" style="fill:rgb(255,0,128);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(622.109551626471,154) rotate(90)" font-size="3pt">inet_init</text>
+<rect x="632.641691686058" width="2.40094273526461" y="150" height="145" style="fill:rgb(255,255,128);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(633.641691686058,154) rotate(90)" font-size="3pt">cache_sysfs_init</text>
+<rect x="642.281297593314" width="1.84998012997062" y="150" height="145" style="fill:rgb(255,128,255);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(643.281297593314,154) rotate(90)" font-size="3pt">microcode_init</text>
+<rect x="662.250332507138" width="78.2546074348367" y="150" height="145" style="fill:rgb(128,255,255);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(668.250332507138,154) rotate(90)">init_kprobes</text>
+<rect x="743.071619395905" width="1.65064813049446" y="150" height="145" style="fill:rgb(0,0,255);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(744.071619395905,154) rotate(90)" font-size="3pt">perf_event_sysfs_init</text>
+<rect x="745.138849008451" width="3.37968524954692" y="150" height="145" style="fill:rgb(0,255,0);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(746.138849008451,154) rotate(90)" font-size="3pt">init_per_zone_wmark_min</text>
+<rect x="753.143484582924" width="22.7059304571945" y="150" height="145" style="fill:rgb(255,0,20);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(759.143484582924,154) rotate(90)">slab_sysfs_init</text>
+<rect x="829.678013640258" width="2.1836932526893" y="150" height="145" style="fill:rgb(255,255,20);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(830.678013640258,154) rotate(90)" font-size="3pt">acpi_ac_init</text>
+<rect x="832.143907251757" width="1.72231806289039" y="150" height="145" style="fill:rgb(255,0,255);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(833.143907251757,154) rotate(90)" font-size="3pt">acpi_button_init</text>
+<rect x="835.545989355177" width="7.96208155211332" y="150" height="145" style="fill:rgb(0,255,255);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(836.545989355177,154) rotate(90)" font-size="3pt">acpi_processor_init</text>
+<rect x="843.805949063811" width="8.61606968522653" y="150" height="145" style="fill:rgb(0,128,255);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(844.805949063811,154) rotate(90)" font-size="3pt">acpi_container_init</text>
+<rect x="852.708698478622" width="6.1389776467912" y="150" height="145" style="fill:rgb(0,255,128);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(853.708698478622,154) rotate(90)" font-size="3pt">acpi_thermal_init</text>
+<rect x="872.590385662338" width="12.3451458552037" y="150" height="145" style="fill:rgb(255,0,128);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(873.590385662338,154) rotate(90)" font-size="3pt">brd_init</text>
+<rect x="885.208773134801" width="6.90942942004779" y="150" height="145" style="fill:rgb(255,255,128);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(886.208773134801,154) rotate(90)" font-size="3pt">loop_init</text>
+<rect x="904.599969218683" width="8.42569642729973" y="150" height="145" style="fill:rgb(255,128,255);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(905.599969218683,154) rotate(90)" font-size="3pt">sch_init</text>
+<rect x="911.946137289268" width="436.008513101585" y="300" height="145" style="fill:rgb(128,255,255);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(917.946137289268,304) rotate(90)">2_async_port_probe</text>
+<rect x="912.264172614275" width="799.574402348569" y="450" height="145" style="fill:rgb(0,0,255);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(918.264172614275,454) rotate(90)">3_async_port_probe</text>
+<rect x="912.602365107769" width="435.849495439082" y="465" height="115" style="fill:rgb(128,128,128);fill-opacity:0.5;stroke-width:0;stroke:rgb(0,0,0)"/>
+<rect x="918.232934171626" width="244.710265109837" y="150" height="145" style="fill:rgb(255,0,20);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(924.232934171626,154) rotate(90)">e1000_init_module</text>
+<rect x="1180.21789267428" width="8.3047534163818" y="150" height="145" style="fill:rgb(255,255,20);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(1181.21789267428,154) rotate(90)" font-size="3pt">i8042_init</text>
+<rect x="1190.8384807812" width="2.03363433173536" y="150" height="145" style="fill:rgb(255,0,255);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(1191.8384807812,154) rotate(90)" font-size="3pt">cmos_init</text>
+<rect x="1194.27415816543" width="2.08962646641953" y="150" height="145" style="fill:rgb(0,255,255);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(1195.27415816543,154) rotate(90)" font-size="3pt">dm_init</text>
+<rect x="1199.3179296578" width="2.8175242173163" y="150" height="145" style="fill:rgb(0,128,255);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(1200.3179296578,154) rotate(90)" font-size="3pt">init_ladder</text>
+<rect x="1202.4042161216" width="5.05049054852748" y="150" height="145" style="fill:rgb(0,255,128);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(1203.4042161216,154) rotate(90)" font-size="3pt">init_menu</text>
+<rect x="1226.32853542953" width="1.99331999476249" y="150" height="145" style="fill:rgb(255,0,128);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(1227.32853542953,154) rotate(90)" font-size="3pt">nf_conntrack_standalone_init</text>
+<rect x="1266.85340282867" width="3.28561846327716" y="150" height="145" style="fill:rgb(255,255,128);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(1267.85340282867,154) rotate(90)" font-size="3pt">acpi_cpufreq_init</text>
+<rect x="1341.83359022716" width="8.17709134930146" y="600" height="145" style="fill:rgb(255,128,255);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(1342.83359022716,604) rotate(90)" font-size="3pt">4_sd_probe_async</text>
+<text transform="translate(0,89) rotate(90)">0.02</text>
+<text transform="translate(130,89) rotate(90)">0.08</text>
+<text transform="translate(260,89) rotate(90)">0.13</text>
+<text transform="translate(390,89) rotate(90)">0.19</text>
+<text transform="translate(520,89) rotate(90)">0.25</text>
+<text transform="translate(650,89) rotate(90)">0.31</text>
+<text transform="translate(780,89) rotate(90)">0.37</text>
+<text transform="translate(910,89) rotate(90)">0.42</text>
+<text transform="translate(1040,89) rotate(90)">0.48</text>
+<text transform="translate(1170,89) rotate(90)">0.54</text>
+<text transform="translate(1300,89) rotate(90)">0.6</text>
+<text transform="translate(1430,89) rotate(90)">0.66</text>
+<text transform="translate(1560,89) rotate(90)">0.71</text>
+<text transform="translate(1690,89) rotate(90)">0.77</text>
+<text transform="translate(1820,89) rotate(90)">0.83</text>
+</svg>
